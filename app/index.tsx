@@ -5,7 +5,7 @@ export default function Accueil() {
     const router = useRouter();
 
     return (
-        <View>
+        <View style={{flex: 1, justifyContent:'center'}}>
             <Text>
                 TechScan
             </Text>
